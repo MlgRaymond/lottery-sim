@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lotter Simuator</title>
+        <link rel="stylesheet" href="/styles.css">
+        <script type="text/javascript" src="/script.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Lottery Simulator</h1>
+        </div>
+        <label>quick pick</label>
+        <input type="checkbox" id="qp">
+        <div class="boxes">
+            <form action="" id="form">
+                <span class="input">
+                    <input type="number" id="1" name="1" min="1" max="69" cols="10" placeholder="Number 1-69">
+                </span>
+                <span class="input">
+                    <input type="number" id="2" name="2" min="1" max="69" cols="10" placeholder="Number 1-69">
+                </span>
+                <span class="input">
+                    <input type="number" id="3" name="3" min="1" max="69" cols="10" placeholder="Number 1-69">
+                </span>
+                <span class="input">
+                    <input type="number" id="4" name="4" min="1" max="69" cols="10" placeholder="Number 1-69">
+                </span>
+                <span class="input">
+                    <input type="number" id="5" name="5" min="1" max="69" cols="10" placeholder="Number 1-69">
+                </span>
+                <span class="input">
+                    <input type="number" id="6" name="ball", min="1" max="26" cols="10" placeholder="Powerball 1-29">
+                </span>
+                <br><br><br>
+                <input type="number" id="amount" name="amount" min="1" max="1000" value="1" placeholder="Amount of plays 1-1000"> <br>
+                <input type="checkbox" id="auto">
+                <label>auto (refresh to stop)</label>
+                <button id="submit" type="button">Submit</button>
+            </form>
+            <p id="failed">Unable to submit, make sure you first 5 numbers are 1-69 and last number is 1-26</p>
+            
+        </div>
+
+        <div id="results">
+            <div id="win">
+                <h2>Winning Numbers</h2>
+                <div id="one" class="numbers">00</div>
+                <div id="two" class="numbers">00</div>
+                <div id="three" class="numbers">00</div>
+                <div id="four" class="numbers">00</div>
+                <div id="five" class="numbers">00</div>
+                <div id="six" class="numbers powerball">00</div>
+            </div>
+            <div id="num">
+                <h2><br><br>Your Numbers</h2>
+                <div id="yone" class="numbers tnum">00</div>
+                <div id="ytwo" class="numbers tnum">00</div>
+                <div id="ythree" class="numbers tnum">00</div>
+                <div id="yfour" class="numbers tnum">00</div>
+                <div id="yfive" class="numbers tnum">00</div>
+                <div id="ysix" class="numbers powerball tnum">00</div>
+            </div>
+        </div>
+
+        
+        <div id="stats">
+            <p id="balance">Balance: 00</p>
+            <p id="won"> Won: 00</p>
+            <p id="best">Best Win: 00</p>
+            <p id="jackpot">Jackpot: 00</p>
+            <p id="plays">Plays: 00</p>
+        </div>
+
+        <div id="winners">
+            <
+            <div class="winners">
+                <p>Numbers: </p>
+                <p>Winning Numbers: </p>
+                <p>Numbers matched: </p>
+                <p>Powerball matched: </p>
+            </div>
+        </div>
+    </body>
+</html>

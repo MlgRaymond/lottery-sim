@@ -1,0 +1,93 @@
+.header {
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+.boxes label, input{
+    font-family: sans-serif;
+
+}
+
+
+.boxes {
+    text-align: center;
+}
+
+.boxes input {
+    display: inline;
+}
+
+.boxes p {
+    display: none;     
+    color: red;
+}
+
+.input input {
+    border: 1px solid black;
+    margin:10px;
+    padding:10px;
+    width:2in
+}
+.submit {
+    margin: 10px; 
+}
+
+#results {
+    text-align: center;
+    border: 5px solid black;
+    margin: 50px;
+    padding: 50px;
+    padding-top: 10px;
+    max-width: 7in;
+}
+
+.numbers {
+    float: left;
+    background: radial-gradient(circle at 50% 25%, #fff, #bbb);
+    border: 1px solid #d2d2d2;
+    border-radius: 1in;
+    width: 1in;
+    height: 1in;
+    margin-left: 50px;
+    perspective: 600px;
+    perspective-origin: 50% 50%;
+    align-items: center;
+    aspect-ratio: 1;
+    border: 1px solid #666;
+    border-radius: 100%;
+    color: #101820;
+    display: flex;
+    flex: 1 0 3rem;
+    font-family: proxima-nova;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    height: 3rem;
+    justify-content: center;
+    max-width: 3rem;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.powerball {
+    background: radial-gradient(circle at 100% 100%, #c8102e, #c8102e);
+    background-color: #c8102e;
+    color: #fff;
+}
+
+#stats {
+    border: 5px solid black;
+}
+
+#amount {
+    width: 2in;
+}
+
+.winners {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-family: system-ui;
+}
